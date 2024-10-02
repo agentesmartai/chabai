@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asistente Virtual - Línea 130 de Denuncia Ciudadana</title>
+    <!-- Incluir Pluto Sans (Asegúrate de cargar la fuente manualmente si no está en Google Fonts) -->
+    <style>
+        @font-face {
+            font-family: 'Pluto Sans';
+            src: url('URL_DE_TU_FUENTE/PlutoSans-Regular.otf') format('opentype');
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #6ec7d8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Pluto Sans', sans-serif;
+            position: relative;
+        }
+
+        .content {
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: justify;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            border-radius: 15px;
+        }
+
+        .arrow {
+            position: absolute;
+            bottom: 30px; /* Ajuste para bajar la flecha */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 36px;
+            color: #000; /* Color negro para la flecha */
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        .centered-image {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Ajuste para la separación entre el texto y la imagen */
+        }
+
+        .centered-image img {
+            max-width: 400px;
+            width: 100%;
+            border-radius: 15px;
+        }
+
+        .content-text {
+            margin-bottom: 20px; /* Separación entre el texto y la imagen */
+        }
+
+        .content-text strong {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="content-text">
+            Soy el asistente virtual del Sistema 130. Mi propósito es brindar claridad a tus inquietudes y orientarte en el proceso de presentar denuncias, quejas y sugerencias.<br><br>
+            <strong>Para garantizar una mejor experiencia, te sugiero:</strong><br>
+            • Formular tus preguntas de manera clara y precisa.<br>
+            • Evitar el uso de insultos o expresiones informales.
+        </div>
+
+        <!-- Imagen debajo del texto -->
+        <div class="centered-image">
+            <img src="https://i.postimg.cc/6QC4PQ5P/logo-sistema-130-01.png" alt="Logo Línea 130">
+        </div>
+    </div>
+
+    <!-- Flecha que apunta a la derecha -->
+    <div class="arrow">→</div>
+<script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '66b414ec2063984247806f71' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production'
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
